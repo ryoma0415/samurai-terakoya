@@ -176,6 +176,11 @@ class SerialApp:
         self.offset_vol[2] = self.measure_vol[2]
         self.offset_vol[3] = self.measure_vol[3]
 
+        print(self.offset_d)
+        print(self.offset_s1)
+        print(self.offset_s2)
+        print(self.offset_vol)
+
 
     def update_gui_d(self, text, text0):
         self.data_label_d.config(text=text)
